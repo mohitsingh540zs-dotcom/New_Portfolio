@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Mohit Singh Bisht, MERN Stack Developer specializing in responsive and interactive web applications.">
+    <title>Mohit Singh Bisht's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <input type="checkbox" id="toggle" hidden>
+    <!-- for toggle logic -->
+    <div class="wrapper">
+
+        <!-- Sticky Navigation bar + Header -->
+        <header class="site-header flex-center">
+            <nav id="mainNav" class="flex-between" aria-label="Main Navigation">
+                <a href="#home" class="logo">Mohit Bisht</a>
+                <div class="quick-links flex">
+                    <ul class="flex-center">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <button class="ham">
+                    <img src="assets/icons/hamburger.png" alt="Nav menu" width="28" height="28">
+                </button>
+                <div class="right">
+                    <label for="toggle" class="toggle-btn" aria-label="Toggle theme"></label>
+                </div>
+            </nav>
+        </header>
+
+        <!--Main Content -->
+        <main>
+            <!-- Hero section or we can say Home / landing page -->
+            <section class="hero flex-center section" id="home">
+                <div class="card">
+                    <div class="left flex-col">
+
+                        <div class="text flex-col">
+                            <h1>
+                                Hi I'm Mohit Singh Bisht
+                            </h1>
+                            <span><strong>FullStack Developer (MERN).</strong></span>
+                            <p>I'm an Intermediate MERN Stack Developer Who can build interactive and responsive
+                                websites.</p>
+                            <div class="buttons flex">
+                                <a href="#contact" id="hire">Hire Me</a>
+                                <a href="assets/pdf/Mohit Singh Bisht.Resume.pdf" download id="resume">Download
+                                    Resume</a>
+                            </div>
+                        </div>
+                        <div id="social-links" class="flex">
+                            <a href="https://github.com/mohitsingh540zs-dotcom" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="assets/icons/github.svg" width="48" height="48" alt="Github Profile"
+                                    loading="lazy">
+                            </a>
+                            <a href="#" aria-label="Facebook profile coming soon" aria-disabled="true" tabindex="-1">
+                                <img src="assets/icons/facebook.svg" width="48" height="48" alt="Facebook Profile"
+                                    loading="lazy">
+                            </a>
+                            <a href="#" aria-label="Instagram profile coming soon" aria-disabled="true" tabindex="-1">
+                                <img src="assets/icons/instagram.svg" width="48" height="48" alt="Instagram Profile"
+                                    loading="lazy">
+                            </a>
+                            <a href="#" aria-label="Linkedin profile coming soon" aria-disabled="true" tabindex="-1">
+                                <img src="assets/icons/linkedin-svgrepo-com.svg" width="48" height="48"
+                                    alt="Linkedin Profile" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+
+                    <figure class="image flex-center">
+                        <img src="assets/MyAvatar.png" width="300" height="300" alt="illustration of developer"
+                            loading="lazy">
+                    </figure>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about section">
+                <div class="main-card flex-col">
+                    <header class="head flex-col">
+                        <h2>About Me</h2>
+                        <p>A quick introduction about who I am and what I do.</p>
+                    </header>
+
+                    <div class="about-container flex">
+                        <div class="left flex-center">
+                            <figure class="about-image">
+                                <img src="assets/MyAvatar.png" width="300" height="300" alt="profile photo">
+                            </figure>
+                        </div>
+                        <div class="right">
+                            <article class="content flex-col">
+                                <div class="intro">
+                                    <p>
+                                        Hi, I'm <strong>Mohit Singh Bisht</strong>, a passionate
+                                        <strong>MERN Stack Developer</strong> who enjoys building responsive
+                                        and interactive web applications.
+                                    </p>
+
+                                    <p>
+                                        I completed my <strong>Bachelor of Computer Applications (BCA)</strong>
+                                        from <strong>IGNOU</strong> in 2025. I enjoy learning modern web
+                                        technologies and building projects that solve real-world problems.
+                                    </p>
+                                </div>
+
+                                <section class="education">
+                                    <h3>Education</h3>
+
+                                    <div class="education-cards flex">
+
+                                        <article class="edu-card">
+                                            <h4>10<sup>th</sup></h4>
+                                            <p>High School •<time datetime="2020">2020</time> </p>
+                                        </article>
+
+                                        <article class="edu-card">
+                                            <h4>12<sup>th</sup></h4>
+                                            <p>Senior Secondary •<time datetime="2022">2022</time></p>
+                                        </article>
+
+                                        <article class="edu-card">
+                                            <h4>BCA</h4>
+                                            <p>IGNOU •<time datetime="2025">2025</time> </p>
+                                        </article>
+                                    </div>
+                                </section>
+
+                                <section class="journey">
+                                    <h3>My Journey</h3>
+                                    <p>During my second year of college, I was captivated by the art of modern web
+                                        design. That
+                                        fascination turned into a mission: to understand the mechanics behind those
+                                        “dashing” websites
+                                        and build them myself.
+                                        From there, I decided to create one of them by myself.</p>
+                                </section>
+
+                                <section class="goal">
+                                    <h3>My Goal</h3>
+                                    <p>To master the MERN (MongoDB, Express, React, Node.js) stack and build
+                                        high-performance
+                                        applications that deliver seamless user experiences.</p>
+                                    <p>To understand the Generative Ai in this era of (Artificial Intelligence) to
+                                        standout in industry
+                                        and become smart developer.</p>
+                                </section>
+                            </article>
+                            <div class="read-more">
+                                <a href="#">Read more...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills section">
+                <div class="main-card flex-col">
+                    <div class="head flex-col">
+                        <h2>My Skills</h2>
+                        <p>I have Intermediate Knowledge of MERN Stack and my tech stack are below.</p>
+                    </div>
+                    <div class="card-container">
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:80; --c:green;">80%</div>
+                            <h3>HTML</h3>
+                            <p>Able to create a better SEO and meaningful structure using Semantic Tags.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:70; --c:green;">70%</div>
+                            <h3>CSS</h3>
+                            <p>Able to create responsive and creative designs by standard css and tailwindcss both.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:60; --c:yellow;">60%</div>
+                            <h3>JavaScript</h3>
+                            <p>Able to use javascript to make websites more interactive and cool.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:50; --c:yellow;">50%</div>
+                            <h3>React</h3>
+                            <p>Able to use React to create Component based UI design with State management.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:50; --c:yellow;">50%</div>
+                            <h3>Node.js</h3>
+                            <p>Knowledge of Node.js to create the brain of website on server instead of browser.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:70; --c:green;">70%</div>
+                            <h3>Express.js</h3>
+                            <p>Able to use this framework to manage the clean, organized routing and middleware.</p>
+                        </article>
+                        <article class="circle-card flex-col">
+                            <div class="circle" style="--p:50; --c:yellow;">50%</div>
+                            <h3>MongoDB</h3>
+                            <p>Able to use this No-sql database for CRUD operation to design flexible Schemas.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="projects section">
+                <div class="main-card ">
+                    <header class="head flex-col">
+                        <h2>Projects</h2>
+                        <p>Some projects are live while others are conceptual demos created to showcase skills.</p>
+                    </header>
+                    <div class="project-container">
+                        <article class="project-card">
+                            <h3>Portfolio</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/portfolio.jpg" alt="MERN_Stack_Portfolio" loading="lazy"
+                                    width="300" height="300">
+                                <span class="num">1</span>
+                                <span class="badge">Real</span>
+                            </figure>
+                            <a href="https://meet-mohit.netlify.app" target="_blank" rel="noopener noreferrer">Click
+                                here</a>
+                        </article>
+                        <article class="project-card">
+                            <h3>Ecommerce Site</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/shopsmart.jpg" alt="ShopSmart_Ecommerce-Site"
+                                    loading="lazy" width="300" height="300">
+                                <span class="num">2</span>
+                                <span class="badge">Real</span>
+                            </figure>
+                            <a href="https://shop-smart-frontend-nine.vercel.app" target="_blank"
+                                rel="noopener noreferrer">Click here</a>
+                        </article>
+                        <article class="project-card">
+                            <h3>Todo List</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/Todo.jpg" alt="Todo_List" loading="lazy" width="300"
+                                    height="300">
+                                <span class="num">3</span>
+                                <span class="badge">Real</span>
+                            </figure>
+                            <a href="https://flowstat.netlify.app" target="_blank" rel="noopener noreferrer">Click
+                                here</a>
+                        </article>
+                        <article class="project-card">
+                            <h3>Ecommerce Site(Fake)</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/fake1.jpg" alt="Fake_Project_1" loading="lazy">
+                                <span class="num">4</span>
+                                <span class="badge">Fake</span>
+                            </figure>
+                            <span aria-disabled="true" tabindex="-1" class="coming-soon">Coming soon</span>
+                        </article>
+                        <article class="project-card">
+                            <h3>Stock Exchange(Fake)</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/fake2.jpg" alt="Fake_Project_2" loading="lazy"
+                                    width="300" height="300">
+                                <span class="num">5</span>
+                                <span class="badge">Fake</span>
+                            </figure>
+                            <span aria-disabled="true" tabindex="-1" class="coming-soon">Coming soon</span>
+                        </article>
+                        <article class="project-card">
+                            <h3>Chat-App(Fake)</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/fake3.jpg" alt="Fake_Project_3" loading="lazy"
+                                    width="300" height="300">
+                                <span class="num">6</span>
+                                <span class="badge">Fake</span>
+                            </figure>
+                            <span aria-disabled="true" tabindex="-1" class="coming-soon">Coming soon</span>
+                        </article>
+                        <article class="project-card">
+                            <h3>Resume Generator(Fake)</h3>
+                            <figure class="project-img">
+                                <img src="assets/websitesImages/fake4.webp" alt="Fake_Project_4" loading="lazy"
+                                    width="300" height="300">
+                                <span class="num">7</span>
+                                <span class="badge">Fake</span>
+                            </figure>
+                            <span aria-disabled="true" tabindex="-1" class="coming-soon">Coming soon</span>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certification Section -->
+            <section id="certificates" class="section">
+                <div class="main-card flex-col">
+                    <header class="head flex-col">
+                        <h2>Certificates</h2>
+                        <p>Some certificates are illustrative and included to demonstrate layout and design.</p>
+                    </header>
+                    <div class="certificate-container flex-center">
+                        <article class="flex-col flex-between">
+                            <h3>React Certificate(Fake)</h3>
+                            <img src="assets/certificates/certificate_preview.png" width="300" height="300"
+                                alt="React_Certificate" loading="lazy">
+                            <a href="assets/pdf/cert_1.pdf" target="_blank">Open</a>
+                        </article>
+                        <article class="flex-col flex-between">
+                            <h3>HTML & CSS (Fake)</h3>
+                            <img src="assets/certificates/certificate_preview2.png" width="300" height="300"
+                                alt="HTML_CSS_Certificate" loading="lazy">
+                            <a href="assets/pdf/cert_2.pdf" target="_blank">Open</a>
+                        </article>
+                        <article class="flex-col flex-between">
+                            <h3>Full Stack Development</h3>
+                            <img src="assets/certificates/certificate_preview3.png" width="300" height="300"
+                                alt="Full_Stack_Certificate" loading="lazy">
+                            <a href="assets/pdf/cert_3.pdf" target="_blank">Open</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact section">
+                <div class="formContainer">
+                    <div class="contact-left">
+                        <form class="flex-col" action="#" method="post">
+                            <h2 class="text-center">Contact Me</h2>
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Enter your name" required
+                                    autocomplete="name">
+                            </div>
+
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="Enter your email" required
+                                    autocomplete="email">
+                            </div>
+
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Enter your comment here"
+                                    required></textarea>
+                            </div>
+
+                            <button type="submit">Submit</button>
+
+                        </form>
+                    </div>
+                    <div class="contact-right flex-center">
+                        <figure class="contact-img">
+                            <img src="assets/contact.png" alt="Contact_me" loading="lazy">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Back to Top -->
+        <a href="#home" class="top text-center">Back to Top</a>
+
+        <!-- footer -->
+        <footer>
+            <div class="foot">
+                <div class="foot-top flex-col">
+                    <h2>Mohit Singh Bisht</h2>
+                    <p>Full Stack Developer.</p>
+                </div>
+                <nav class="foot-mid" aria-label="Footer Navigation">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certificates">Certificates</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="foot-bottom">
+                    <address>
+                        New Delhi, India<br>
+                        <a href="mailto:mohitsingh540zs@gmail.com">mohitsingh540zs@gmail.com</a>
+                    </address>
+                    <p>&copy; Mohit Singh Bisht | <time>2026</time></p>
+                    <div class="buttons">
+                        <a href="#" aria-label="Call (coming soon)" aria-disabled="true" tabindex="-1">
+                            <img src="assets/icons/phone-call.png" alt="Phone" width="48" height="48">
+                        </a>
+                        <a href="mailto:mohitsingh540zs@gmail.com">
+                            <img src="assets/icons/email.png" alt="Email" width="48" height="48">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
